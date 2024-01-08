@@ -33,7 +33,7 @@ def get_html(url):
     return str(response.read(), encoding="utf-8", errors="ignore")
 
 
-rootSite = 'http://www.matfiz.univ.kiev.ua/userfiles/files/'
+rootSite = 'http://www.matfiz.univ.kiev.ua/pages/'
 rootPath = "D:\\Repo\\project-management\\"
 
 dirs = {
